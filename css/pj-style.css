@@ -1,0 +1,75 @@
+@charset "utf-8";
+body {
+	background-color: #decda6;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 860px;
+	text-align: center;
+}
+#leftside {
+	width: 300px;
+	float: left;
+}
+
+
+#rightside1 {
+	width: 560px;
+	float: right;
+	height: 460px;
+}
+#footer {
+	clear: both;
+	color: #594334;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+	font-size: 14px;
+}
+#nav {
+	color: #FFF;
+	font-weight: bolder;
+	font-family: "微軟正黑體";
+	height: 40px;
+}
+#nav table tr td {
+	text-align: center;
+	font-size: 22px;
+	line-height: 30px;
+	background-image: url(../images/img_19.png);
+	color: #0FC;
+}
+#nav table tr td a{
+	color: #FFF;
+	text-decoration: none;
+	background-image: url(../images/navimg.jpg);
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+#nav table tr td a:hover {
+	color: #FF0;
+	background-image: url(../images/img_19.png);
+}
+#img {
+	height: 270px;
+	width: 250px;
+}
+div {
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	float: none;
+	font-size: 24px;
+	color: #333;
+}
